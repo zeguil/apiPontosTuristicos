@@ -1,7 +1,7 @@
 from rest_framework.serializers import ModelSerializer
-from .models import Atracao
+from .models import Endereco
 
-class AtracaoSerializer(ModelSerializer):
+class EnderecoSerializer(ModelSerializer):
     class Meta:
-        model = Atracao
+        model = Endereco
         fields = "__all__"
