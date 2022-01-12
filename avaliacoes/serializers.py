@@ -4,4 +4,4 @@ from .models import Avaliacao
 class AvaliacaoSerializer(ModelSerializer):
     class Meta:
         model = Avaliacao
-        fiels = "__all__" 
+        fields = "__all__" 
